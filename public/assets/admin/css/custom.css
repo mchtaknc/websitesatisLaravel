@@ -1,0 +1,93 @@
+body {
+    font-size: 14px;
+    font-family: 'Nunito',sans-serif;
+}
+
+.specifications .check,
+.theme-specs .check {
+    display: block;
+    width: 100%;
+    background: #ddd;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.specifications .check span,
+.theme-specs .check span {
+    display: block;
+    font-weight: bold;
+}
+
+.remove-spec {
+    cursor: pointer;
+}
+
+.theme-images {
+    background: #ddd;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theme-images .theme-image {
+    border: 1px solid #000;
+    width: 152px;
+    margin: 5px;
+}
+
+.theme-images .theme-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.theme-images .theme-image .control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    text-align: center;
+}
+
+.theme-images .theme-image .control a {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #000;
+}
+
+.theme-images .theme-image .control a:hover {
+    opacity: .7
+}
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+table.form {
+    background-color: #fff;
+    margin: 0 0 5px 0;
+    padding: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    min-width: 500px;
+}
+table.form tr td:nth-child(1) {
+    background-color: #fff;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+}
+table.form tr td:nth-child(2) {
+    background-color: #efefef;
+    text-align: left;
+    vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+{
+    "Register": "Kayıt Ol",
+	"Already registered?" : "Zaten Üye Misiniz?",
+	"Name" : "İsim",
+	"Email": "E-Posta",
+	"Password": "Şifre",
+	"Confirm Password": "Şifre Tekrar",
+	"Whoops! Something went wrong." : "Birşeyler Ters Gitti"
+}
